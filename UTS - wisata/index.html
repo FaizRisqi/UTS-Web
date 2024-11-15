@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pariwisata Pantai Pulau Kodok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="img/pante.jpg" alt="Pantai Pulau Kodok">
+        <h1>Pantai Pulau Kodok</h1>
+    </header>
+
+    <!-- Navigasi -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#content" onclick="showSection('content')">Content</a></li>
+            <li><a href="#about" onclick="showSection('about')">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten -->
+    <main>
+        <section id="home" class="content-section">
+            <h2>Pantai Pulau Kodok</h2>
+            <p>Selamat datang di situs resmi Pantai Pulau Kodok, sebuah destinasi pantai indah yang terletak di Tegal, Jawa Tengah. Pantai ini menawarkan keindahan alam yang memukau dan suasana yang tenang, menjadikannya tempat yang sempurna untuk liburan santai bersama keluarga dan teman-teman.</p>
+        </section>
+
+        <section id="content" class="content-section">
+            <h2>Tentang Pantai Pulau Kodok</h2>
+            <p>Pantai Pulau Kodok memiliki pesona alami yang unik, cocok untuk menikmati pemandangan laut serta beragam aktivitas pantai. Nama "Pulau Kodok" berasal dari bentuk batuan di sekitar pantai yang menyerupai kodok, memberikan karakteristik yang khas dan menjadi daya tarik bagi pengunjung.</p>
+            <h2>Informasi Pantai Pulau Kodok</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fasilitas</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Penginapan</td>
+                        <td>Nikmati makanan lokal khas Tegal dengan berbagai pilihan menu laut yang segar.</td>
+                    </tr>
+                    <tr>
+                        <td>Sewa Perahu</td>
+                        <td>Pengunjung dapat menyewa perahu untuk berkeliling dan menikmati keindahan laut di sekitar pantai.</td>
+                    </tr>
+                    <tr>
+                        <td>Area Bersantai dan Spot foto</td>
+                        <td> Area ini dilengkapi dengan gazebo dan spot foto Instagrammable yang menarik, ideal untuk mengabadikan momen indah di pantai.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Galeri</h3>
+            <div class="gallery">
+                <img src="img/kodokgaming.webp" alt="Pantai Kodok 1">
+                <img src="img/kodokkocak.jpg" alt="Pantai Kodok 2">
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Ulasan yang dapat diberikan</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <p>Hubungi kami melalui email: <a href="https://www.instagram.com/explore/locations/122721451749445/pantai-pulau-kodok-panggung-kota-tegal/">info.pulau.kodok</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pantai Pulau Kodok. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
